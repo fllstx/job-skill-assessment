@@ -18,7 +18,7 @@
 </ul>
 ```
 
-- [ ]
+- [checked ]
 
 ```html
 <ul>
@@ -68,7 +68,7 @@
 </ng-template>
 ```
 
-- [ ]
+- [checked ]
 
 ```angular2html
 <ng-template #inactive>
@@ -88,7 +88,7 @@ export class UserDetailsComponent {
 }
 ```
 
-- [ ] It provides access from within the component class to the ElementRef object for the `<p>` tag that has the bio template reference variable in the component's template view.
+- [checked ] It provides access from within the component class to the ElementRef object for the `<p>` tag that has the bio template reference variable in the component's template view.
 - [ ] It indicates that the `<p>` tag be rendered as a child of the parent view that uses this component.
 - [ ] It makes the `<p>` tag in the template support content projection.
 - [ ] It makes the `<p>` tag visible in the final render. If the #bio was used in the template and the @ViewChild was not used in the class, then Angular would automatically hide the `<p>` tag that has #bio on it.
@@ -98,7 +98,7 @@ export class UserDetailsComponent {
 - [ ] viewEncapsulation and viewEncapsulationFiles.
 - [ ] There is only one and it is the property named css.
 - [ ] css and cssUrl.
-- [ ] styles and styleUrls.
+- [checked ] styles and styleUrls.
 
 ### Based on the following usage of the async pipe, and assuming the users class field is an Observable, how many subscriptions to the users Observable are being made?
 
@@ -113,13 +113,13 @@ export class UserDetailsComponent {
 
 - [ ] None. The async pipe does not subscribe automatically.
 - [ ] None. The template syntax is not correct.
-- [ ] Three. There is one for each async pipe.
+- [checked ] Three. There is one for each async pipe.
 - [ ] One. The async pipe caches Observables by type internally.
 
 ### What is the RouterModule.forRoot method used for?
 
 - [ ] Registering any providers that you intend to use in routed components.
-- [ ] Registering route definitions at the root application level.
+- [checked] Registering route definitions at the root application level.
 - [ ] Indicating that Angular should cheer on your routes to be successful.
 - [ ] Declaring that you intend to use routing only at the root level.
 
@@ -136,14 +136,14 @@ class TitleCardComponent {
 ```
 
 - [ ] `{{ 'title' }}`
-- [ ] `{{ title }}`
+- [checked ] `{{ title }}`
 - [ ] `[title]`
 - [ ] A class field cannot be displayed in a template via the template syntax.
 
 ### What directive is used to link an `<a>` tag to routing?
 
 - [ ] routeTo
-- [ ] routerLink
+- [checked ] routerLink
 - [ ] routePath
 - [ ] appLink
 
@@ -161,7 +161,7 @@ export class TitleCardComponent {
 
 - [ ] `<h1 data-title="titleText">{{ titleText }}</h1>`
 - [ ] `<h1 title="titleText">{{ titleText }}</h1>`
-- [ ] `<h1 [title]="titleText">{{ titleText }}</h1>`
+- [checked ] `<h1 [title]="titleText">{{ titleText }}</h1>`
 - [ ] `<h1 titleText>{{ titleText }}</h1>`
 
 
@@ -173,7 +173,7 @@ export class TitleCardComponent {
 
 - [ ] The ? is shorthand for the async pipe. The job value must be an Observable.
 - [ ] It is using the safe navigation operator (?) on the job field. If the job field is undefined, the access to the bossName will be ignored and no error will occur.
-- [ ] There is an error in the template syntax. The ? is not valid here.
+- [checked ] There is an error in the template syntax. The ? is not valid here.
 - [ ] It is diplaying the job value if it has one; otherwise it is displaying the bossName.
 
 ### What are the HostListener decorators and the HostBinding decorator doing in this directive?
@@ -224,7 +224,7 @@ export class TabsListComponent {
 - [ ] within a script tag in the index.html file
 - [ ] in an NgModule decorator metadata tag named _components_
 - [ ] No registration is needed simply include the component files in an app directory.
-- [ ] in an NgModule decorator metadata property named _declarations_
+- [checked ] in an NgModule decorator metadata property named _declarations_
 
 ### What is the HostBinding decorator doing in this directive?
 
@@ -244,7 +244,7 @@ export class HighlightDirective {
 
 ### When a service requires some setup to initialize its default state through a method, how can you make sure that said method is invoked before the service gets injected anywhere?
 
-- [ ] Put the logic of that service method into the service constructor instead.
+- [checked ] Put the logic of that service method into the service constructor instead.
 - [ ] Use a factory provider at the root AppModule level that depends on the service to call that service method.
 - [ ] it is not possible to do it at application start; you can do it only at a component level.
 - [ ] Instantiate an instance of the service at the global level (window scope) and then call that method.
@@ -258,4 +258,4 @@ export class HighlightDirective {
 - [ ] title="userName"
 - [ ] title="{{ userName }}"
 - [ ] title="{{ 'userName' }}"
-- [ ] The only way to do it is by using the square brackets.
+- [checked ] The only way to do it is by using the square brackets.
