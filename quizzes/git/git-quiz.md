@@ -134,17 +134,6 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] Squash the related commits together into a single coherent commit.
 - [ ] Stash the related commits under a new hash.
 
-### After pushing commits to the remote repository for the first time using the command below, what shorthand command can you use in future?
-
-```bash
-git push -u origin master
-```
-
-- [ ] `git push master`
-- [ ] `git push origin`
-- [ ] `git push`
-- [ ] Same as before,`git push -u origin` master
-
 ### What command would let you modify your previous commit?
 
 - [ ] --fix
