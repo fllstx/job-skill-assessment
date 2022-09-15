@@ -5,12 +5,12 @@
 - [ ] Distributed Version Control System
 - [ ] Issue Tracking System
 - [ ] Integrated Development Environment
-- [ ] Web-Based Repository Hosting Service
+- [checked ] Web-Based Repository Hosting Service
 
 ### What command lets you create a connection between a local and remote repository?
 
 - [ ] git remote add new
-- [ ] git remote add origin
+- [checked ] git remote add origin
 - [ ] git remote new origin
 - [ ] git remote origin
 
@@ -160,7 +160,7 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] git add
 - [ ] git start
 - [ ] git new
-- [ ] git init
+- [checked ] git init
 
 ### After staging a series of changes to the index, which command could you use to review them prior to a commit?
 
@@ -222,11 +222,11 @@ git checkout -b beta-test
 - [ ] Use `git --delete <branch_name>`.
 - [ ] Use `git push <remote_name> --d <branch_name>`.
 - [ ] Use `git push <remote_name> --D`.
-- [ ] Use `git push <remote_name> --delete <branch_name>`.
+- [checked ] Use `git push <remote_name> --delete <branch_name>`.
 
 ### What practice can help reduce the chances of encountering a merge conflict?
 
 - [ ] Provide detailed commit messages that describe the changes being introduced by the commit. <url>
 - [ ] make large commits that introduce multiple features. <url>
-- [ ] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently. <url>
+- [checked ] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently. <url>
 - [ ] Avoid frequent interaction with the remote repository to reduce the probability of pulling conflicts. <url>
