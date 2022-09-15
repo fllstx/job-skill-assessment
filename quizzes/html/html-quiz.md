@@ -31,7 +31,7 @@
 </p>
 ```
 
-- [ ] C
+- [checked ] C
 
 ```html
 <details open>
@@ -55,7 +55,7 @@
 
 ### What is the difference between the `<div>` and `<span>` tags?
 
-- [ ] `<div>` is used where a generic block-level tag is needed, while `<span>` is used where a generic inline tag is needed.
+- [checked ] `<div>` is used where a generic block-level tag is needed, while `<span>` is used where a generic inline tag is needed.
 - [ ] `<div>` is used for major divisions on a page, while `<span>` is used to span across columns.
 - [ ] `<div>` is the industry-standard default tag, but you could use `<span>` if you prefer.
 - [ ] `<div>` is used where a generic inline tag is needed, while `<span>` is used where a generic block-level tag is needed.
@@ -70,14 +70,14 @@
 </picture>
 ```
 
-- [ ] It displays image1.jpg at 1000px and higher, image2.jpg at 750-999px, and image3.jpg at 749px and lower.
+- [checked ] It displays image1.jpg at 1000px and higher, image2.jpg at 750-999px, and image3.jpg at 749px and lower.
 - [ ] It displays image1.jps at 1000px and higher and image2.jpg at 750-999px, image3.jpg is a default in case `<picture>` is not supported.
 - [ ] It displays image1.jpg at 1000px and higher and image2.jpg at 750px and higher, image3.jpg is a default in case `<picture>` is not supported.
 - [ ] It displays image1.jpg, image2.jpg and image3.jpg at 1000px and higher.
 
 ### What does the `<label>` element do?
 
-- [ ] It labels webpages with important information.
+- [checked ] It labels webpages with important information.
 - [ ] It creates an ID for a corresponding input element.
 - [ ] It overrides the name attribute's value on a child input element.
 - [ ] It programmatically associates a text label with an interface element.
@@ -106,7 +106,7 @@
 </ul>
 ```
 
-- [ ] B
+- [checked ] B
 
 ```html
 <ul>
@@ -145,7 +145,7 @@
 ```
 
 - [ ] title
-- [ ] type
+- [checked ] type
 - [ ] device
 - [ ] media
 
@@ -175,7 +175,7 @@
 </tr>
 ```
 
-- [ ] C
+- [checked ] C
 
 ```html
 <tr>
@@ -204,7 +204,7 @@
 `<script async src="myscript.js"></script>`
 
 - [ ] It downloads the script from the server when resources allow.
-- [ ] It runs the script after HTML parsing is complete.
+- [ checked ] It runs the script after HTML parsing is complete.
 - [ ] It runs the script when the script is ready.
 - [ ] It pauses the parsing of HTML code while the script runs.
 
@@ -221,7 +221,7 @@
 
 - [ ] For blog posts and other social media items
 - [ ] For the main content area of your website
-- [ ] When the content stands alone as a unit, is suitable for syndication, or is reusable
+- [checked ] When the content stands alone as a unit, is suitable for syndication, or is reusable
 - [ ] To associate comments with a blog post
 
 ### For the HTML code below, when will "Sample Text" display to the browser?
@@ -231,7 +231,7 @@
 ```
 
 - [ ] when there is no JavaScript used on this webpage
-- [ ] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser
+- [checked ] when JavaScript is not supported by the browser or if JavaScript is disabled in the browser
 - [ ] when JavaScript is disabled in the web browser
 - [ ] when JavaScript is not supported by the web browser
 
@@ -245,7 +245,7 @@
 ### What is the difference between the _readonly_ and _disabled_ attributes for the `<textarea>` element?
 
 - [ ] _readonly_ allows clicking in the `<textarea>` element. _disabled_ prevents all interaction with the control.
-- [ ] _readonly_ is invalid attribute for `<textarea>`, while _disabled_ is a valid attribute.
+- [checked ] _readonly_ is invalid attribute for `<textarea>`, while _disabled_ is a valid attribute.
 - [ ] _disabled_ allows clicking in the `<textarea>` element. _readonly_ prevents all interaction with the control.
 - [ ] _disabled_ is invalid attribute for `<textarea>`, while _readonly_ is a valid attribute.
 
@@ -299,5 +299,5 @@
 
 - [ ] `<style media="light-mode: false">/* CSS code */</style>`
 - [ ] `<style media="color-mode: dark">/* CSS code */</style>`
-- [ ] `<style media="prefers-color-scheme: dark">/* CSS code */</style>`
+- [checked ] `<style media="prefers-color-scheme: dark">/* CSS code */</style>`
 - [ ] `<style media="color-scheme: dark">/* CSS code */</style>`
