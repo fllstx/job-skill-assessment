@@ -2,7 +2,7 @@
 
 ### What is the CSS selector for an `<a>` tag containing the title attribute?
 
-- [ ] `a[title]`
+- [checked ] `a[title]`
 - [ ] `a > title`
 - [ ] `a=title`
 - [ ] `a.title`
@@ -11,7 +11,7 @@
 
 - [ ] Opacity specifies the level of transparency of the child elements. Background with an `rgba()` value applies transparency to the background color only.
 - [ ] Opacity applies transparency to the background color only. Background with an `rgba()` value specifies the level of transparency of an element, as a whole, including its content.
-- [ ] Opacity specifies the level of transparency of an element, including its content. Background with an `rgba()` value applies transparency to the background color only.
+- [checked ] Opacity specifies the level of transparency of an element, including its content. Background with an `rgba()` value applies transparency to the background color only.
 - [ ] Opacity applies transparency to the parent and child elements. Background with an `rgba()` value specifies the level of transparency of the parent element only.
 
 ### If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
@@ -24,7 +24,7 @@
 }
 ```
 
-- [ ] 50px, 150px, 300px
+- [checked ] 50px, 150px, 300px
 - [ ] 50px, 200px, 300px
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
@@ -55,7 +55,7 @@ a {
 ```
 
 - [ ] green
-- [ ] yellow
+- [checked ] yellow
 - [ ] blue
 - [ ] red
 
@@ -78,7 +78,7 @@ section + p {
 }
 ```
 
-- [ ] Paragraph one will be blue, paragraph two will be red.
+- [checked ] Paragraph one will be blue, paragraph two will be red.
 - [ ] Both paragraphs will be blue.
 - [ ] Paragraphs one will be red, paragraph two will be blue.
 - [ ] Both paragraphs will be red.
@@ -93,7 +93,7 @@ section + p {
 ### When using position: fixed, what will the element always be positioned relative to?
 
 - [ ] the closest element with position: relative
-- [ ] the viewport
+- [checked ] the viewport
 - [ ] the parent element
 - [ ] the wrapper element
 
@@ -109,7 +109,7 @@ section + p {
 - [ ] The rem unit is relative to the font-size of the p element.
 - [ ] You have to set the value for the rem unit by writing a declaration such as rem { font-size: 1 Spx; }
 - [ ] The rem unit is relative to the font-size of the containing (parent) element.
-- [ ] The rem unit is relative to the font-size of the root element of the page.
+- [ checked] The rem unit is relative to the font-size of the root element of the page.
 
 ### In the following media query example, what conditions are being targeted?
 
@@ -124,7 +124,7 @@ section + p {
 
 ### When using the Flexbox method, what property and value is used to display flex items in a column?
 
-- [ ] flex-flow: column; or flex-direction: column
+- [checked ] flex-flow: column; or flex-direction: column
 - [ ] flex-flow: column;
 - [ ] flex-column: auto;
 - [ ] flex-direction: column;
@@ -133,7 +133,7 @@ section + p {
 
 ![quote](./images/rm-2.png)
 
-- [ ] justify-content: space-around;
+- [checked ] justify-content: space-around;
 - [ ] justify-content: center;
 - [ ] justify-content: auto;
 - [ ] justify-content: space-between;
@@ -150,7 +150,7 @@ section + p {
 - [ ] element:hover {scale: 0.5;}
 - [ ] element:hover {transform: scale(0.5);}
 - [ ] element:hover {scale: 50%;}
-- [ ] element:hover {transform: scale(50%);}
+- [checked ] element:hover {transform: scale(50%);}
 
 ### The values for the font-weight property can be keywords or numbers. For each numbered value below, what is the associated keyword?
 
@@ -160,13 +160,13 @@ font-weight: 700;
 ```
 
 - [ ] bold; normal
-- [ ] normal; bold
+- [ checked] normal; bold
 - [ ] light; normal
 - [ ] normal; bolder
 
 ### What is NOT a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
 
-- [ ] padding: 10px 10px 0px 0px;
+- [checked ] padding: 10px 10px 0px 0px;
 - [ ] padding: 10px 0px;
 - [ ] padding: 10px 0;
 - [ ] padding: 10px 0px 10px 0px;
@@ -179,7 +179,7 @@ font-weight: 700;
 }
 ```
 
-- [ ] The left margin value is equal to 5% of its parents element's width plus 5px
+- [checked ] The left margin value is equal to 5% of its parents element's width plus 5px
 - [ ] The left margin value is equal to 5% of the viewport width plus 5px
 - [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
 - [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
@@ -192,7 +192,7 @@ font-weight: bold;
 
 - [ ] font-weight: 400;
 - [ ] font-weight: medium;
-- [ ] font-weight: 700;
+- [checked ] font-weight: 700;
 - [ ] font-weight: Black;
 
 ### Using the following HTML and CSS example, what will equivalent pixel value be for .em and .rem elements?
@@ -226,7 +226,7 @@ body {
 
 ### What is the correct selector for targeting all text inputs that are not disabled?
 
-- [ ] `input[type="text"]:not([disabled]) {...}`
+- [checked ] `input[type="text"]:not([disabled]) {...}`
 - [ ] `input[type="text"]:not("disabled") {...}`
 - [ ] `input[type*="text"]:not([disabled="disabled"]) {...}`
 - [ ] `input[type="text"]:not([type="disabled"]) {...}`
@@ -282,11 +282,11 @@ body {
 - [ ] `font-size: reduce;`
 - [ ] `font-size: 8px;`
 - [ ] `font-size: -1em;`
-- [ ] `font-size: smaller;`
+- [checked ] `font-size: smaller;`
 
 ### Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
 - [ ] `background-image: file('wood.png');`
-- [ ] `background-image: url('wood.png');`
+- [checked ] `background-image: url('wood.png');`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`
