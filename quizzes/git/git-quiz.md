@@ -2,7 +2,7 @@
 
 ### Which of these terms best describes Git?
 
-- [ ] Distributed Version Control System
+- [X] Distributed Version Control System
 - [ ] Issue Tracking System
 - [ ] Integrated Development Environment
 - [ ] Web-Based Repository Hosting Service
@@ -10,7 +10,7 @@
 ### What command lets you create a connection between a local and remote repository?
 
 - [ ] git remote add new
-- [ ] git remote add origin
+- [X] git remote add origin
 - [ ] git remote new origin
 - [ ] git remote origin
 
@@ -22,13 +22,13 @@ git merge --squash HEAD@{1}
 ```
 
 - [ ] They reset the HEAD to the fifth commit in the repo, then merge to the master branch.
-- [ ] The current branch's HEAD is reset back five commits, then prior commits are squashed into a single commit.
+- [X] The current branch's HEAD is reset back five commits, then prior commits are squashed into a single commit.
 - [ ] They delete the last five commits.
 - [ ] They merge the last five commits into a new branch.
 
 ### Your current project has several branches; master, beta, and push-notifications. You've just finished the notification feature in the push-notification branch, and you want to commit it to beta branch. How can you accomplish this?
 
-- [ ] Checkout the _push-notifications_ branch and run `git merge beta`
+- [X] Checkout the _push-notifications_ branch and run `git merge beta`
 - [ ] Checkout the _master_ branch and run `git merge beta -> push-notification`
 - [ ] Delete the _push-notification_ branch and it will be committed to the _master_ branch automatically
 - [ ] Checkout the _beta_ branch and run `git merge push-notification`
@@ -37,7 +37,7 @@ git merge --squash HEAD@{1}
 
 `git add -A`
 
-- [ ] All new and updated files are staged
+- [X] All new and updated files are staged
 - [ ] Files are staged in alphabetical order.
 - [ ] All new files are staged
 - [ ] Only updated files are staged
@@ -50,7 +50,7 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 ```
 
 - [ ] The commit is being tagged for release on the _feature-user-location_ branch
-- [ ] A commit is being copied from its original branch over to the _feature-user-location_ branch
+- [X] A commit is being copied from its original branch over to the _feature-user-location_ branch
 - [ ] The commit is being cherry picked as the new HEAD of the commit history
 - [ ] A commit is being copied from the _feature-user-location_ branch to the master branch
 - [ ] The branch is switched to the _feature-user-location_ branch, and the specified commit is applied to the branch.
@@ -71,7 +71,7 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] To run a comparative search of the last 10 commits for differences
 - [ ] To list the last 10 commits and modify them with either the squash or fixup command
 - [ ] To delete the last 10 commits and reset the HEAD
-- [ ] In order to locally cache the last 10 commits
+- [X] In order to locally cache the last 10 commits
 
 ### Why would you use a pre-receive hook in your remote repository?
 
@@ -83,7 +83,7 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 ### How could you squash multiple commits together without using git merge --squash?
 
 - [ ] Caching
-- [ ] You can't. `git merge --squash` is the only git command for that operation.
+- [X] You can't. `git merge --squash` is the only git command for that operation.
 - [ ] Rebasing
 - [ ] Reflogging
 
@@ -100,12 +100,12 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 
 - [ ] Nothing, you can't use multiple options in the same command
 - [ ] Adds all new files to the staging area
-- [ ] Commits all new files with a message
+- [X] Commits all new files with a message
 - [ ] Adds all modified files to the staging area, then commits them with a message
 
 ### What commands would you use to force an overwrite of your local files with the master branch?
 
-- [ ] ⠀
+- [X] ⠀
   ```bash
   git pull --all
   git reset --hard origin/master
