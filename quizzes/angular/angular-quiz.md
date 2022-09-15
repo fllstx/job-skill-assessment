@@ -219,7 +219,7 @@ export class TabsListComponent {
 - [ ] It provides access from within the component class to any _TabComponent_ components that were content projected into the <ng-content> for this component.
 - [ ] It restricts the allowed elements that can be put into a _TabsListComponent_ element to allow only _TabComponent_ elements.
 
-### In order for Angular to process components in an application, where do the component types need to be registered?
+### In order for Angular to process components in an application, where do the components need to be registered?
 
 - [ ] within a script tag in the index.html file
 - [ ] in an NgModule decorator metadata tag named _components_

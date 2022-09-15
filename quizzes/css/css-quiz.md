@@ -7,39 +7,6 @@
 - [ ] `a=title`
 - [ ] `a.title`
 
-### In this example, what is the selector, property, and value?
-
-```css
-p {
-  color: #000000;
-}
-```
-
-- [ ]
-  ```markdown
-  "p" is the selector
-  "#000000" is the property
-  "color" is the value
-  ```
-- [ ]
-  ```markdown
-  "p" is the selector
-  "color" is the property
-  "#000000" is the value
-  ```
-- [ ]
-  ```markdown
-  "color" is the selector
-  "#000000" is the property
-  "#p" is the value
-  ```
-- [ ]
-  ```markdown
-  "color" is the selector
-  "p" is the property
-  "#000000" is the value
-  ```
-
 ### When adding transparency styles, what is the difference between using the opacity property versus the background property with an `rgba()` value?
 
 - [ ] Opacity specifies the level of transparency of the child elements. Background with an `rgba()` value applies transparency to the background color only.
@@ -144,13 +111,6 @@ section + p {
 - [ ] The rem unit is relative to the font-size of the containing (parent) element.
 - [ ] The rem unit is relative to the font-size of the root element of the page.
 
-### Which choice would give a block element rounded corners?
-
-- [ ] `corner-radius: 10px;`
-- [ ] `border-corner: 10px;`
-- [ ] `corner-curve: 10px;`
-- [ ] `border-radius: 10px;`
-
 ### In the following media query example, what conditions are being targeted?
 
 ```css
@@ -162,41 +122,12 @@ section + p {
 - [ ] The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode.
 - [ ] The rule will apply to a device that has a width of 1024px or narrower, or is a screen device in landscape mode.
 
-### Which choice is not a valid color value?
-
-- [ ] `color: #000`
-- [ ] `color: rgb(0,0,0)`
-- [ ] `color: #000000`
-- [ ] `color: aaffcc`
-
 ### When using the Flexbox method, what property and value is used to display flex items in a column?
 
 - [ ] flex-flow: column; or flex-direction: column
 - [ ] flex-flow: column;
 - [ ] flex-column: auto;
 - [ ] flex-direction: column;
-
-### Which element(s) will be blue?
-
-```css
-h2 ~ p {
-  color: blue;
-}
-```
-
-```html
-<section>
-  <p>P1</p>
-  <h2>H2</h2>
-  <p>P3</p>
-  <div>P4</div>
-</section>
-```
-
-- [ ] P1
-- [ ] P1, P3 and P4
-- [ ] P1 and P3
-- [ ] P3
 
 ### When using flexbox, the "justify-content" property can be used to distribute the space between the flex items along the main axis. Which value should be used to evenly distribute the flex items within the container shown below?
 
@@ -233,20 +164,6 @@ font-weight: 700;
 - [ ] light; normal
 - [ ] normal; bolder
 
-### Which selector would select only internal links within the current page?
-
-- [ ] `a[href="#"] {...}`
-- [ ] `a[href~="#"]`
-- [ ] `a[href^="#"]`
-- [ ] `a[href="#"]`
-
-### What is the difference between the margin and padding properties?
-
-- [ ] Margin adds space around and inside of an element; padding adds space only inside of an element.
-- [ ] Margin adds space around an element; padding adds space inside of an element.
-- [ ] Margin adds a line around an element, padding adds space inside of an element.
-- [ ] Margin adds space inside of an element, padding adds space around an element.
-
 ### What is NOT a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
 
 - [ ] padding: 10px 10px 0px 0px;
@@ -266,50 +183,6 @@ font-weight: 700;
 - [ ] The left margin value is equal to 5% of the viewport width plus 5px
 - [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
 - [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
-
-### In this example, what color will Paragraph 1 be?
-
-```css
-p:first-of-type {
-  color: red;
-}
-p {
-  color: blue;
-}
-.container {
-  color: yellow;
-}
-p:first-child {
-  color: green;
-}
-```
-
-```html
-<div class="container">
-  <h1>Heading</h1>
-  <p>Paragraph1</p>
-  <p>Paragraph2</p>
-</div>
-```
-
-- [ ] blue
-- [ ] green
-- [ ] red
-- [ ] yellow
-
-### You have a large image that needs to fit into a 400 x 200 pixel area. What should you resize the image to if your users are using Retina displays?
-
-- [ ] 2000 x 1400 pixels
-- [ ] 200 x 100 pixels
-- [ ] 800 x 400 pixels
-- [ ] 400 x 200 pixels
-
-### Are any of the following declarations invalid?
-
-- [ ] `color: red;`
-- [ ] `font-size: 1em;`
-- [ ] `padding: 10px 0;`
-- [ ] All declarations are valid.
 
 ### What is an alternate way to define the following CSS rule?
 
@@ -351,38 +224,6 @@ body {
 - [ ] The .rem will be equivalent to 15px; the .em value will be 40px.
 - [ ] The .rem will be equivalent to 20px; the .em value will be 40px.
 
-### What property is used to adjust the space between text characters?
-
-- [ ] `font-style`
-- [ ] `text-transform`
-- [ ] `font-variant`
-- [ ] `letter-spacing`
-
-### What is the correct syntax for changing the cursor from an arrow to a pointing hand when it interacts with a named element?
-
-- [ ] `.element {cursor: pointer;}`
-- [ ] `.element {cursor: hand;}`
-- [ ] `.element {cursor: move-hand;}`
-- [ ] `.element {cursor: pointer-hand;}`
-
-### How will the grid items display?
-
-```css
-grid-template-columns: 2fr 1fr;
-```
-
-- [ ] The first column is twice the height of the second column and will be as wide as the content
-- [ ] The first column is half the size of the container and the second column will absorb the remaining space
-- [ ] The first column is twice as wide as the second column and will fit proportionally within the grid container
-- [ ] The first column is twice the width and height of the second column, and will fit proportionally within the grid container
-
-### Which property is used to create a drop shadow effect on an HTML element?
-
-- [ ] element-shadow
-- [ ] outer-shadow
-- [ ] dropbox-shadow
-- [ ] box-shadow
-
 ### What is the correct selector for targeting all text inputs that are not disabled?
 
 - [ ] `input[type="text"]:not([disabled]) {...}`
@@ -406,39 +247,6 @@ grid-template-columns: 2fr 1fr;
 - [ ] The .container element should have a property of flex: display.
 - [ ] The flex-direction property should be declared in the container.
 - [ ] The display value should be flex-inline to display the items in a row.
-
-### In this example, what color will the paragraphs be and why?
-
-```css
-article p {
-  color: blue;
-}
-article > p {
-  color: green;
-}
-```
-
-```html
-<article>
-  <p>Paragraph 1</p>
-
-  <aside>
-    <p>Paragraph 2</p>
-  </aside>
-</article>
-```
-
-- [ ] Paragraph 1 will be blue. Paragraph 2 will be green.
-- [ ] Both paragraphs will be green.
-- [ ] Paragraph 1 will be green. Paragraph 2 will be blue.
-- [ ] Both paragraphs will be blue.
-
-### Which selector is used to select the paragraph element that is a direct descendent of section?
-
-- [ ] `section * p`
-- [ ] `section + p`
-- [ ] `section ~ p`
-- [ ] `section > p`
 
 ### There are currently four viewport-percentage lengths that can be used to define the value relative to the viewport size: vw, vh, vmin, and vmax. If the current viewport size has a width of 800px and a height of 600px, what will these values be equivalent to in pixels?
 
@@ -469,51 +277,6 @@ article > p {
       10vmin = 8px
       10vmax = 6px
 
-### Referring to the HTML markup and CSS example below, which element(s) will be targeted?
-
-```css
-p:first-of-type:first-letter {
-  color: red;
-}
-```
-
-```html
-<body>
-  <p>Paragraph 1.</p>
-  <p>Paragraph 2.</p>
-
-  <article>
-    <h1>Heading</h1>
-    <p>Paragraph 3.</p>
-    <p>paragraph 4.</p>
-  </article>
-
-  <section>
-    <p>Paragraph 5.</p>
-    <p>Paragraph 6.</p>
-  </section>
-</body>
-```
-
-- [ ] The first letter in all paragraphs will be red.
-- [ ] Only the first letter in paragraphs 1 and 5 will be red.
-- [ ] The first letter in paragraphs 1, 3, and 5 will be red.
-- [ ] Only the first letter in paragraph 1 will be red.Only
-
-### Which items are valid values for the font-size property?
-
-```css
-A. font-size: xsmall
-B. font-size: 50%
-C. font-size: 1em
-D. font-size: 20px
-```
-
-- [ ] C, D
-- [ ] B, C, D
-- [ ] A, C
-- [ ] A, B, C, D
-
 ### To make the font size of an element one size smaller than the font size of the element's container, which style property would you apply?
 
 - [ ] `font-size: reduce;`
@@ -521,69 +284,9 @@ D. font-size: 20px
 - [ ] `font-size: -1em;`
 - [ ] `font-size: smaller;`
 
-### To prevent a background image from tiling in any direction, which style property would you apply?
-
-- [ ] A
-
-```css
-background-repeat: no-repeat;
-```
-
-- [ ] B
-
-```css
-background-repeat: fixed;
-```
-
-- [ ] C
-
-```css
-background-repeat: none;
-```
-
-- [ ] D
-
-```css
-background-tile: none;
-```
-
-### To rotate an object 30 degrees counterclockwise, which style property would you apply?
-
-- [ ] `transform: rotate(-30deg);`
-- [ ] `transform: rotate(30deg);`
-- [ ] `rotate: 30deg;`
-- [ ] `spin: 30deg;`
-
 ### Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
 - [ ] `background-image: file('wood.png');`
 - [ ] `background-image: url('wood.png');`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`
-
-### Which missing code will give "Cellar Door" a shadow?
-
-```css
-  <style>
-    #cellar-door {
-      box-shadow: 3px 5px 10px #000;
-    }
-    .text-shadow {
-      text-shadow: 3px 5px 10px #000;
-    }
-  </style>
-
-  <h1 _____> Cellar Door</h1>
-```
-
-- [ ] `class="text-shadow"`
-- [ ] `id="cellar-door"`
-- [ ] `id="text-shadow"`
-- [ ] `class="cellar-door"`
-
-### Which choice is a valid example of a comment in CSS?
-
-- [ ] `-- This line has been cancelled.`
-- [ ] `/* This line has been cancelled. */`
-- [ ] `// This line has been cancelled.`
-- [ ] `# This line has been cancelled.`
