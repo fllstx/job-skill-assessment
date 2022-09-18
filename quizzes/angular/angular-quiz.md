@@ -242,13 +242,6 @@ export class HighlightDirective {
 - [ ] It is specifying if the host element gets the highlighted class added to its class attribute, then the directive class field highlight will get set to true; and if it is not added on the host it will get set to false.
 - [ ] It is creating an inline style on the host element with a CSS property named highlight set to true.
 
-### When a service requires some setup to initialize its default state through a method, how can you make sure that said method is invoked before the service gets injected anywhere?
-
-- [ ] Put the logic of that service method into the service constructor instead.
-- [ ] Use a factory provider at the root AppModule level that depends on the service to call that service method.
-- [ ] it is not possible to do it at application start; you can do it only at a component level.
-- [ ] Instantiate an instance of the service at the global level (window scope) and then call that method.
-
 ### What is an alternative way to write this markup to bind the value of the class field `userName` to the `h1` element title property?
 
 ```html

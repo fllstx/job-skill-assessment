@@ -42,19 +42,6 @@ git merge --squash HEAD@{1}
 - [ ] All new files are staged
 - [ ] Only updated files are staged
 
-### Looking at the following commands, describe what is happening.
-
-```bash
-git checkout feature-user-location
-git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
-```
-
-- [ ] The commit is being tagged for release on the _feature-user-location_ branch
-- [ ] A commit is being copied from its original branch over to the _feature-user-location_ branch
-- [ ] The commit is being cherry picked as the new HEAD of the commit history
-- [ ] A commit is being copied from the _feature-user-location_ branch to the master branch
-- [ ] The branch is switched to the _feature-user-location_ branch, and the specified commit is applied to the branch.
-
 ### What does the following command do to the git repository?
 
 `git reset --soft HEAD^`
@@ -93,15 +80,6 @@ git cherry-pick kj2342134sdf090093f0sdgasdf99sdfo992mmmf9921231
 - [ ] Use the `diff-tree` command with the commit hash.
 - [ ] Run `git commit --info` with the commit hash.
 - [ ] Access the commit stash data with `git stash`.
-
-### After you make changes to a local repository, you run the following command. What will this do?
-
-`git commit -a -m "Refactor code base"`
-
-- [ ] Nothing, you can't use multiple options in the same command
-- [ ] Adds all new files to the staging area
-- [ ] Commits all new files with a message
-- [ ] Adds all modified files to the staging area, then commits them with a message
 
 ### What commands would you use to force an overwrite of your local files with the master branch?
 
