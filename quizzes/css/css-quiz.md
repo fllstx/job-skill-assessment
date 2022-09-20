@@ -2,7 +2,7 @@
 
 ### What is the CSS selector for an `<a>` tag containing the title attribute?
 
-- [ ] `a[title]`
+- [x] `a[title]`
 - [ ] `a > title`
 - [ ] `a=title`
 - [ ] `a.title`
@@ -11,7 +11,7 @@
 
 - [ ] Opacity specifies the level of transparency of the child elements. Background with an `rgba()` value applies transparency to the background color only.
 - [ ] Opacity applies transparency to the background color only. Background with an `rgba()` value specifies the level of transparency of an element, as a whole, including its content.
-- [ ] Opacity specifies the level of transparency of an element, including its content. Background with an `rgba()` value applies transparency to the background color only.
+- [x] Opacity specifies the level of transparency of an element, including its content. Background with an `rgba()` value applies transparency to the background color only.
 - [ ] Opacity applies transparency to the parent and child elements. Background with an `rgba()` value specifies the level of transparency of the parent element only.
 
 ### If the width of the container is 500 pixels, what would the width of the three columns be in this layout?
@@ -24,7 +24,7 @@
 }
 ```
 
-- [ ] 50px, 150px, 300px
+- [x] 50px, 150px, 300px
 - [ ] 50px, 200px, 300px
 - [ ] 50px, 100px, 200px
 - [ ] 50px, 50px, 100px
@@ -55,7 +55,7 @@ a {
 ```
 
 - [ ] green
-- [ ] yellow
+- [x] yellow
 - [ ] blue
 - [ ] red
 
@@ -80,20 +80,20 @@ section + p {
 
 - [ ] Paragraph one will be blue, paragraph two will be red.
 - [ ] Both paragraphs will be blue.
-- [ ] Paragraphs one will be red, paragraph two will be blue.
+- [x] Paragraphs one will be red, paragraph two will be blue.
 - [ ] Both paragraphs will be red.
 
 ### Which statement about the SVG image format is true?
 
 - [ ] CSS can be applied to SVGs but JavaScript cannot be.
 - [ ] SVGs work best for creating 3D graphics.
-- [ ] SVGs can be created as a vector graphic or coded using SVG specific elements such as &#x3C;svg&#x3E;, &#x3C;line&#x3E;, and &#x3C;ellipse&#x3E;.
+- [x] SVGs can be created as a vector graphic or coded using SVG specific elements such as &#x3C;svg&#x3E;, &#x3C;line&#x3E;, and &#x3C;ellipse&#x3E;.
 - [ ] SVGs are a YAML-based markup language for creating vector graphics.
 
 ### When using position: fixed, what will the element always be positioned relative to?
 
 - [ ] the closest element with position: relative
-- [ ] the viewport
+- [x] the viewport
 - [ ] the parent element
 - [ ] the wrapper element
 
@@ -117,14 +117,14 @@ section + p {
 @media (min-width: 1024px), screen and (orientation: landscape) { … }
 ```
 
-- [ ] The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.
+- [x] The rule will apply to a device that has either a width of 1024px or wider, or is a screen device in landscape mode.
 - [ ] The rule will apply to a device that has a width of 1024px or narrower and is a screen device in landscape mode.
 - [ ] The rule will apply to a device that has a width of 1024px or wider and is a screen device in landscape mode.
 - [ ] The rule will apply to a device that has a width of 1024px or narrower, or is a screen device in landscape mode.
 
 ### When using the Flexbox method, what property and value is used to display flex items in a column?
 
-- [ ] flex-flow: column; or flex-direction: column
+- [x] flex-flow: column; or flex-direction: column
 - [ ] flex-flow: column;
 - [ ] flex-column: auto;
 - [ ] flex-direction: column;
@@ -133,7 +133,7 @@ section + p {
 
 ![quote](./images/rm-2.png)
 
-- [ ] justify-content: space-around;
+- [x] justify-content: space-around;
 - [ ] justify-content: center;
 - [ ] justify-content: auto;
 - [ ] justify-content: space-between;
@@ -142,13 +142,13 @@ section + p {
 
 - [ ] Both will hide the element on the page, but display:none has greater browser support. visibility:hidden is a new property and does not have the best browser support
 - [ ] display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document
-- [ ] display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintains the space it previously occupied.
+- [x] display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintains the space it previously occupied.
 - [ ] There is no difference; both will hide the element on the page
 
 ### What selector and property would you use to scale an element to be 50% smaller on hover?
 
 - [ ] element:hover {scale: 0.5;}
-- [ ] element:hover {transform: scale(0.5);}
+- [x] element:hover {transform: scale(0.5);}
 - [ ] element:hover {scale: 50%;}
 - [ ] element:hover {transform: scale(50%);}
 
@@ -160,13 +160,13 @@ font-weight: 700;
 ```
 
 - [ ] bold; normal
-- [ ] normal; bold
+- [x] normal; bold
 - [ ] light; normal
 - [ ] normal; bolder
 
 ### What is NOT a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
 
-- [ ] padding: 10px 10px 0px 0px;
+- [x] padding: 10px 10px 0px 0px;
 - [ ] padding: 10px 0px;
 - [ ] padding: 10px 0;
 - [ ] padding: 10px 0px 10px 0px;
@@ -179,7 +179,7 @@ font-weight: 700;
 }
 ```
 
-- [ ] The left margin value is equal to 5% of its parents element's width plus 5px
+- [x] The left margin value is equal to 5% of its parents element's width plus 5px
 - [ ] The left margin value is equal to 5% of the viewport width plus 5px
 - [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
 - [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
@@ -192,7 +192,7 @@ font-weight: bold;
 
 - [ ] font-weight: 400;
 - [ ] font-weight: medium;
-- [ ] font-weight: 700;
+- [x] font-weight: 700;
 - [ ] font-weight: Black;
 
 ### Using the following HTML and CSS example, what will equivalent pixel value be for .em and .rem elements?
@@ -221,7 +221,7 @@ body {
 
 - [ ] The .rem will be equivalent to 25px; the .em value will be 20px.
 - [ ] The .rem will be equivalent to 15px; the .em value will be 20px.
-- [ ] The .rem will be equivalent to 15px; the .em value will be 40px.
+- [x] The .rem will be equivalent to 15px; the .em value will be 40px.
 - [ ] The .rem will be equivalent to 20px; the .em value will be 40px.
 
 ### What is the correct selector for targeting all text inputs that are not disabled?
@@ -245,7 +245,7 @@ body {
 
 - [ ] The value for flex-direction should be reverse-row.
 - [ ] The .container element should have a property of flex: display.
-- [ ] The flex-direction property should be declared in the container.
+- [x] The flex-direction property should be declared in the container.
 - [ ] The display value should be flex-inline to display the items in a row.
 
 ### There are currently four viewport-percentage lengths that can be used to define the value relative to the viewport size: vw, vh, vmin, and vmax. If the current viewport size has a width of 800px and a height of 600px, what will these values be equivalent to in pixels?
@@ -257,7 +257,7 @@ body {
 10vmax = ?px
 ```
 
-- [ ] 10vw = 80px
+- [x] 10vw = 80px
       10vh = 60px
       10vmin = 60px
       10vmax = 80px
@@ -282,11 +282,11 @@ body {
 - [ ] `font-size: reduce;`
 - [ ] `font-size: 8px;`
 - [ ] `font-size: -1em;`
-- [ ] `font-size: smaller;`
+- [x] `font-size: smaller;`
 
 ### Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
 - [ ] `background-image: file('wood.png');`
-- [ ] `background-image: url('wood.png');`
+- [x] `background-image: url('wood.png');`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`
