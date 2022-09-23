@@ -3,7 +3,7 @@
 ### What is the CSS selector for an `<a>` tag containing the title attribute?
 
 - [ ] `a[title]`
-- [ ] `a > title`
+- [x] `a > title`
 - [ ] `a=title`
 - [ ] `a.title`
 
@@ -55,7 +55,7 @@ a {
 ```
 
 - [ ] green
-- [ ] yellow
+- [x] yellow
 - [ ] blue
 - [ ] red
 
@@ -80,7 +80,7 @@ section + p {
 
 - [ ] Paragraph one will be blue, paragraph two will be red.
 - [ ] Both paragraphs will be blue.
-- [ ] Paragraphs one will be red, paragraph two will be blue.
+- [x] Paragraphs one will be red, paragraph two will be blue.
 - [ ] Both paragraphs will be red.
 
 ### Which statement about the SVG image format is true?
@@ -93,14 +93,14 @@ section + p {
 ### When using position: fixed, what will the element always be positioned relative to?
 
 - [ ] the closest element with position: relative
-- [ ] the viewport
+- [x] the viewport
 - [ ] the parent element
 - [ ] the wrapper element
 
 ### By default, a background image will repeat...
 
 - [ ] ...only if the background-repeat property is set to repeat
-- [ ] ...indefinitely, vertically, and horizontally
+- [x] ...indefinitely, vertically, and horizontally
 - [ ] ...indefinitely on the horizontal axis only
 - [ ] ...once, on the x and y axis
 
@@ -109,7 +109,7 @@ section + p {
 - [ ] The rem unit is relative to the font-size of the p element.
 - [ ] You have to set the value for the rem unit by writing a declaration such as rem { font-size: 1 Spx; }
 - [ ] The rem unit is relative to the font-size of the containing (parent) element.
-- [ ] The rem unit is relative to the font-size of the root element of the page.
+- [x] The rem unit is relative to the font-size of the root element of the page.
 
 ### In the following media query example, what conditions are being targeted?
 
@@ -142,13 +142,13 @@ section + p {
 
 - [ ] Both will hide the element on the page, but display:none has greater browser support. visibility:hidden is a new property and does not have the best browser support
 - [ ] display:none hides the elements but maintains the space it previously occupied. visibility:hidden will hide the element from view and remove it from the normal flow of the document
-- [ ] display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintains the space it previously occupied.
+- [x] display:none hides the element from view and removes it from the normal flow of the document. visibility:hidden will hide the element but maintains the space it previously occupied.
 - [ ] There is no difference; both will hide the element on the page
 
 ### What selector and property would you use to scale an element to be 50% smaller on hover?
 
 - [ ] element:hover {scale: 0.5;}
-- [ ] element:hover {transform: scale(0.5);}
+- [x] element:hover {transform: scale(0.5);}
 - [ ] element:hover {scale: 50%;}
 - [ ] element:hover {transform: scale(50%);}
 
@@ -160,13 +160,13 @@ font-weight: 700;
 ```
 
 - [ ] bold; normal
-- [ ] normal; bold
+- [x] normal; bold
 - [ ] light; normal
 - [ ] normal; bolder
 
 ### What is NOT a valid way of declaring a padding value of 10 pixels on the top and bottom, and 0 pixels on the left and right?
 
-- [ ] padding: 10px 10px 0px 0px;
+- [x] padding: 10px 10px 0px 0px;
 - [ ] padding: 10px 0px;
 - [ ] padding: 10px 0;
 - [ ] padding: 10px 0px 10px 0px;
@@ -179,7 +179,7 @@ font-weight: 700;
 }
 ```
 
-- [ ] The left margin value is equal to 5% of its parents element's width plus 5px
+- [x] The left margin value is equal to 5% of its parents element's width plus 5px
 - [ ] The left margin value is equal to 5% of the viewport width plus 5px
 - [ ] The left margin value is equal to 5% of the closest positioned element's width plus 5px
 - [ ] The left margin value is equal to 5% of the selected element's width (.example) plus 5px
@@ -192,7 +192,7 @@ font-weight: bold;
 
 - [ ] font-weight: 400;
 - [ ] font-weight: medium;
-- [ ] font-weight: 700;
+- [x] font-weight: 700;
 - [ ] font-weight: Black;
 
 ### Using the following HTML and CSS example, what will equivalent pixel value be for .em and .rem elements?
@@ -226,7 +226,7 @@ body {
 
 ### What is the correct selector for targeting all text inputs that are not disabled?
 
-- [ ] `input[type="text"]:not([disabled]) {...}`
+- [x] `input[type="text"]:not([disabled]) {...}`
 - [ ] `input[type="text"]:not("disabled") {...}`
 - [ ] `input[type*="text"]:not([disabled="disabled"]) {...}`
 - [ ] `input[type="text"]:not([type="disabled"]) {...}`
@@ -257,7 +257,7 @@ body {
 10vmax = ?px
 ```
 
-- [ ] 10vw = 80px
+- [x] 10vw = 80px
       10vh = 60px
       10vmin = 60px
       10vmax = 80px
@@ -282,11 +282,11 @@ body {
 - [ ] `font-size: reduce;`
 - [ ] `font-size: 8px;`
 - [ ] `font-size: -1em;`
-- [ ] `font-size: smaller;`
+- [x] `font-size: smaller;`
 
 ### Which style rule would you apply to set the background image to display the contents of the wood.png file?
 
 - [ ] `background-image: file('wood.png');`
-- [ ] `background-image: url('wood.png');`
+- [x] `background-image: url('wood.png');`
 - [ ] `background-image: wood.png;`
 - [ ] `image: wood.png`

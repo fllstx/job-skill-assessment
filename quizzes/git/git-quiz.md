@@ -2,7 +2,7 @@
 
 ### Which of these terms best describes Git?
 
-- [ ] Distributed Version Control System
+- [x] Distributed Version Control System
 - [ ] Issue Tracking System
 - [ ] Integrated Development Environment
 - [ ] Web-Based Repository Hosting Service
@@ -10,7 +10,7 @@
 ### What command lets you create a connection between a local and remote repository?
 
 - [ ] git remote add new
-- [ ] git remote add origin
+- [x] git remote add origin
 - [ ] git remote new origin
 - [ ] git remote origin
 
@@ -31,13 +31,13 @@ git merge --squash HEAD@{1}
 - [ ] Checkout the _push-notifications_ branch and run `git merge beta`
 - [ ] Checkout the _master_ branch and run `git merge beta -> push-notification`
 - [ ] Delete the _push-notification_ branch and it will be committed to the _master_ branch automatically
-- [ ] Checkout the _beta_ branch and run `git merge push-notification`
+- [x] Checkout the _beta_ branch and run `git merge push-notification`
 
 ### Which of the following is true you when you use the following command?
 
 `git add -A`
 
-- [ ] All new and updated files are staged
+- [x] All new and updated files are staged
 - [ ] Files are staged in alphabetical order.
 - [ ] All new files are staged
 - [ ] Only updated files are staged
@@ -77,7 +77,7 @@ git merge --squash HEAD@{1}
 ### How can you display a list of files added or modified in a specific commit?
 
 - [ ] Find the commit in the remote repository, as that's the only place that kind of information is stored.
-- [ ] Use the `diff-tree` command with the commit hash.
+- [x] Use the `diff-tree` command with the commit hash.
 - [ ] Run `git commit --info` with the commit hash.
 - [ ] Access the commit stash data with `git stash`.
 
@@ -98,7 +98,7 @@ git merge --squash HEAD@{1}
   git pull origin master
   git reset --hard origin/myCurrentBranch
   ```
-- [ ] ⠀
+- [x] ⠀
 
   ```bash
   git fetch --all
@@ -122,7 +122,7 @@ git merge --squash HEAD@{1}
 ### After you've successfully merged two branches and committed the changes, what is the next step in keeping your git structure organized?
 
 - [ ] Use the `git reset --soft HEAD` to roll back one commit.
-- [ ] Run `git branch -d <branch name>` to delete the merged branch.
+- [x] Run `git branch -d <branch name>` to delete the merged branch.
 - [ ] Use `git clear-all` to clean up any hanging files.
 - [ ] Run `git rebase` to move the current commit to its original location.
 
@@ -131,19 +131,19 @@ git merge --squash HEAD@{1}
 - [ ] This is not possible, as you cannot save locally without committing.
 - [ ] Run `git hold` to save a local copy of what you're doing to return to later.
 - [ ] Save your work with `git local-cache`.
-- [ ] Use `git stash` to save your work and come back later and reapply the stashed commit.
+- [x] Use `git stash` to save your work and come back later and reapply the stashed commit.
 
 ### What command would you use to create a new git repository?
 
 - [ ] git add
 - [ ] git start
 - [ ] git new
-- [ ] git init
+- [x] git init
 
 ### After staging a series of changes to the index, which command could you use to review them prior to a commit?
 
 - [ ] git diff --cached
-- [ ] git diff
+- [x] git diff
 - [ ] git diff --HEAD
 - [ ] git status -v -v
 
@@ -152,7 +152,7 @@ git merge --squash HEAD@{1}
 - [ ] `git -b checkout <nameOfBranch>`
 - [ ] `git branch`
 - [ ] `git checkout <nameOfBranch>`
-- [ ] `git checkout -b <nameOfBranch>`
+- [x] `git checkout -b <nameOfBranch>`
 
 ### After mistakenly staging a file named myFile to the index, how would you remove it from the index to exclude it from your next commit?
 
@@ -169,7 +169,7 @@ git checkout -b beta-test
 
 - [ ] The beta-test branch will be checked out of the current commit.
 - [ ] The beta-test branch will be checked out and deleted.
-- [ ] A new branch called beta-test will be created and switched to.
+- [x] A new branch called beta-test will be created and switched to.
 - [ ] The beta-test branch will be merged with the master branch.
 
 ### What conflicts can occur when forcing a push after rebasing?
@@ -200,11 +200,11 @@ git checkout -b beta-test
 - [ ] Use `git --delete <branch_name>`.
 - [ ] Use `git push <remote_name> --d <branch_name>`.
 - [ ] Use `git push <remote_name> --D`.
-- [ ] Use `git push <remote_name> --delete <branch_name>`.
+- [x] Use `git push <remote_name> --delete <branch_name>`.
 
 ### What practice can help reduce the chances of encountering a merge conflict?
 
 - [ ] Provide detailed commit messages that describe the changes being introduced by the commit. <url>
 - [ ] make large commits that introduce multiple features. <url>
-- [ ] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently. <url>
+- [x] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently. <url>
 - [ ] Avoid frequent interaction with the remote repository to reduce the probability of pulling conflicts. <url>
