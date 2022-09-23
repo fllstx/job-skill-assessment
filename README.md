@@ -7,7 +7,6 @@
     - [Angular](quizzes/angular/angular-quiz.md)
     - [Git](quizzes/git/git-quiz.md)
 1. Create a pull-request with your answers.
-1. Request a review from @mojoaxel
 
 * The whole test should not take you longer than ~30-60 minutes. Please make sure you don't take much longer than that from start to finish.
 * If you don't know the answer just skip the question! Please don't just guess.
