@@ -2,7 +2,7 @@
 
 ### Which of these terms best describes Git?
 
-- [ ] Distributed Version Control System
+- [x] Distributed Version Control System
 - [ ] Issue Tracking System
 - [ ] Integrated Development Environment
 - [ ] Web-Based Repository Hosting Service
@@ -10,7 +10,7 @@
 ### What command lets you create a connection between a local and remote repository?
 
 - [ ] git remote add new
-- [ ] git remote add origin
+- [x] git remote add origin
 - [ ] git remote new origin
 - [ ] git remote origin
 
@@ -22,7 +22,7 @@ git merge --squash HEAD@{1}
 ```
 
 - [ ] They reset the HEAD to the fifth commit in the repo, then merge to the master branch.
-- [ ] The current branch's HEAD is reset back five commits, then prior commits are squashed into a single commit.
+- [x] The current branch's HEAD is reset back five commits, then prior commits are squashed into a single commit.
 - [ ] They delete the last five commits.
 - [ ] They merge the last five commits into a new branch.
 
@@ -31,13 +31,13 @@ git merge --squash HEAD@{1}
 - [ ] Checkout the _push-notifications_ branch and run `git merge beta`
 - [ ] Checkout the _master_ branch and run `git merge beta -> push-notification`
 - [ ] Delete the _push-notification_ branch and it will be committed to the _master_ branch automatically
-- [ ] Checkout the _beta_ branch and run `git merge push-notification`
+- [x] Checkout the _beta_ branch and run `git merge push-notification`
 
 ### Which of the following is true you when you use the following command?
 
 `git add -A`
 
-- [ ] All new and updated files are staged
+- [x] All new and updated files are staged
 - [ ] Files are staged in alphabetical order.
 - [ ] All new files are staged
 - [ ] Only updated files are staged
@@ -49,21 +49,21 @@ git merge --squash HEAD@{1}
 - [ ] It deletes all previous commits and reset the repository history back to its initial state.
 - [ ] It resets the working branch to the first commit.
 - [ ] It keeps the HEAD at the current commit, but clears all previous commits.
-- [ ] It sets HEAD to the previous commit and leaves changes from the undone commit in the stage/index.
+- [x] It sets HEAD to the previous commit and leaves changes from the undone commit in the stage/index.
 
 ### Why would the following command be used?
 
 `git rebase -i HEAD~10`
 
 - [ ] To run a comparative search of the last 10 commits for differences
-- [ ] To list the last 10 commits and modify them with either the squash or fixup command
+- [x] To list the last 10 commits and modify them with either the squash or fixup command
 - [ ] To delete the last 10 commits and reset the HEAD
 - [ ] In order to locally cache the last 10 commits
 
 ### Why would you use a pre-receive hook in your remote repository?
 
 - [ ] You wouldn't, you would use it in the local repository
-- [ ] To execute a script when a remote receives a push that is triggered before any refs are updated
+- [x] To execute a script when a remote receives a push that is triggered before any refs are updated
 - [ ] To fire a script after updates are made to the remote repository
 - [ ] To debug all commit tags and release versions
 
@@ -71,13 +71,13 @@ git merge --squash HEAD@{1}
 
 - [ ] Caching
 - [ ] You can't. `git merge --squash` is the only git command for that operation.
-- [ ] Rebasing
+- [x] Rebasing
 - [ ] Reflogging
 
 ### How can you display a list of files added or modified in a specific commit?
 
 - [ ] Find the commit in the remote repository, as that's the only place that kind of information is stored.
-- [ ] Use the `diff-tree` command with the commit hash.
+- [x] Use the `diff-tree` command with the commit hash.
 - [ ] Run `git commit --info` with the commit hash.
 - [ ] Access the commit stash data with `git stash`.
 
@@ -98,7 +98,7 @@ git merge --squash HEAD@{1}
   git pull origin master
   git reset --hard origin/myCurrentBranch
   ```
-- [ ] ⠀
+- [x] ⠀
 
   ```bash
   git fetch --all
@@ -109,7 +109,7 @@ git merge --squash HEAD@{1}
 
 - [ ] Cherry pick the related commits to another branch.
 - [ ] Delete the task commits and recommit with a new message.
-- [ ] Squash the related commits together into a single coherent commit.
+- [x] Squash the related commits together into a single coherent commit.
 - [ ] Stash the related commits under a new hash.
 
 ### What command would let you modify your previous commit?
@@ -117,12 +117,12 @@ git merge --squash HEAD@{1}
 - [ ] --fix
 - [ ] --quickfix
 - [ ] --modify
-- [ ] --amend
+- [x] --amend
 
 ### After you've successfully merged two branches and committed the changes, what is the next step in keeping your git structure organized?
 
 - [ ] Use the `git reset --soft HEAD` to roll back one commit.
-- [ ] Run `git branch -d <branch name>` to delete the merged branch.
+- [x] Run `git branch -d <branch name>` to delete the merged branch.
 - [ ] Use `git clear-all` to clean up any hanging files.
 - [ ] Run `git rebase` to move the current commit to its original location.
 
@@ -131,18 +131,18 @@ git merge --squash HEAD@{1}
 - [ ] This is not possible, as you cannot save locally without committing.
 - [ ] Run `git hold` to save a local copy of what you're doing to return to later.
 - [ ] Save your work with `git local-cache`.
-- [ ] Use `git stash` to save your work and come back later and reapply the stashed commit.
+- [x] Use `git stash` to save your work and come back later and reapply the stashed commit.
 
 ### What command would you use to create a new git repository?
 
 - [ ] git add
 - [ ] git start
 - [ ] git new
-- [ ] git init
+- [x] git init
 
 ### After staging a series of changes to the index, which command could you use to review them prior to a commit?
 
-- [ ] git diff --cached
+- [x] git diff --cached
 - [ ] git diff
 - [ ] git diff --HEAD
 - [ ] git status -v -v
@@ -152,12 +152,12 @@ git merge --squash HEAD@{1}
 - [ ] `git -b checkout <nameOfBranch>`
 - [ ] `git branch`
 - [ ] `git checkout <nameOfBranch>`
-- [ ] `git checkout -b <nameOfBranch>`
+- [x] `git checkout -b <nameOfBranch>`
 
 ### After mistakenly staging a file named myFile to the index, how would you remove it from the index to exclude it from your next commit?
 
 - [ ] Use git reset HEAD^.
-- [ ] Use git reset myFile.txt.
+- [x] Use git reset myFile.txt.
 - [ ] Use git -rm myFile.txt.
 - [ ] Use git reset.
 
@@ -169,12 +169,12 @@ git checkout -b beta-test
 
 - [ ] The beta-test branch will be checked out of the current commit.
 - [ ] The beta-test branch will be checked out and deleted.
-- [ ] A new branch called beta-test will be created and switched to.
+- [x] A new branch called beta-test will be created and switched to.
 - [ ] The beta-test branch will be merged with the master branch.
 
 ### What conflicts can occur when forcing a push after rebasing?
 
-- [ ] The remote master branch could have existing changes overwritten.
+- [x] The remote master branch could have existing changes overwritten.
 - [ ] The origin URL will be reset to its default value.
 - [ ] The current HEAD will be deleted and can't be reinstated.
 - [ ] Nothing, it's common practice to force a push after rebasing.
@@ -184,13 +184,13 @@ git checkout -b beta-test
 `git reset --soft HEAD^`
 
 - [ ] It resets the working branch to the first commit.
-- [ ] It sets HEAD to previous commit and leaves changes from the undone commit in the stage/index.
+- [x] It sets HEAD to previous commit and leaves changes from the undone commit in the stage/index.
 - [ ] It deletes all previous commits and resets the repository history back to its initial state.
 - [ ] It keeps the HEAD at the current commit, but clears all previous commits.
 
 ### What is the difference between a soft reset (`git reset --soft`) and a hard reset (`git reset –hard`) ?
 
-- [ ] A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to match the specified commit, discarding any changes.
+- [x] A soft reset only changes the commit that HEAD points to, while a hard reset resets the index and working tree to match the specified commit, discarding any changes.
 - [ ] A soft reset caches the old HEAD pointer, while a hard reset deletes it entirely.
 - [ ] A hard reset changes only where the HEAD is pointing, while a soft reset changes the HEAD and index.
 - [ ] A hard reset caches the old HEAD pointer, while a soft reset deletes it entirely.
@@ -200,11 +200,11 @@ git checkout -b beta-test
 - [ ] Use `git --delete <branch_name>`.
 - [ ] Use `git push <remote_name> --d <branch_name>`.
 - [ ] Use `git push <remote_name> --D`.
-- [ ] Use `git push <remote_name> --delete <branch_name>`.
+- [x] Use `git push <remote_name> --delete <branch_name>`.
 
 ### What practice can help reduce the chances of encountering a merge conflict?
 
 - [ ] Provide detailed commit messages that describe the changes being introduced by the commit. <url>
 - [ ] make large commits that introduce multiple features. <url>
-- [ ] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently. <url>
+- [x] Keep local repository branches in sync with upstream branches in the remote repository by committing,pushing and pulling frequently. <url>
 - [ ] Avoid frequent interaction with the remote repository to reduce the probability of pulling conflicts. <url>
