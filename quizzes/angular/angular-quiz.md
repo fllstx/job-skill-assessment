@@ -2,7 +2,7 @@
 
 ### What is the correct template syntax for using the built-in ngFor structural directive to render out a list of productNames?
 
-- [ ]
+- [ ] A
 
 ```html
 <ul>
@@ -10,7 +10,7 @@
 </ul>
 ```
 
-- [ ]
+- [ ] B
 
 ```html
 <ul>
@@ -18,7 +18,7 @@
 </ul>
 ```
 
-- [ ]
+- [x] C
 
 ```html
 <ul>
@@ -26,7 +26,7 @@
 </ul>
 ```
 
-- [ ]
+- [ ] D
 
 ```html
 <ul>
@@ -44,7 +44,7 @@
 </div>
 ```
 
-- [ ]
+- [ ] A
 
 ```angular2html
 <div #inactive>
@@ -52,7 +52,7 @@
 </div>
 ```
 
-- [ ]
+- [ ] B
 
 ```angular2html
 <div *ngIf="inactive">
@@ -60,7 +60,7 @@
 </div>
 ```
 
-- [ ]
+- [ ] C
 
 ```angular2html
 <ng-template #else="inactive">
@@ -68,7 +68,7 @@
 </ng-template>
 ```
 
-- [ ]
+- [x] D
 
 ```angular2html
 <ng-template #inactive>
@@ -88,7 +88,7 @@ export class UserDetailsComponent {
 }
 ```
 
-- [ ] It provides access from within the component class to the ElementRef object for the `<p>` tag that has the bio template reference variable in the component's template view.
+- [x] It provides access from within the component class to the ElementRef object for the `<p>` tag that has the bio template reference variable in the component's template view.
 - [ ] It indicates that the `<p>` tag be rendered as a child of the parent view that uses this component.
 - [ ] It makes the `<p>` tag in the template support content projection.
 - [ ] It makes the `<p>` tag visible in the final render. If the #bio was used in the template and the @ViewChild was not used in the class, then Angular would automatically hide the `<p>` tag that has #bio on it.
@@ -98,7 +98,7 @@ export class UserDetailsComponent {
 - [ ] viewEncapsulation and viewEncapsulationFiles.
 - [ ] There is only one and it is the property named css.
 - [ ] css and cssUrl.
-- [ ] styles and styleUrls.
+- [x] styles and styleUrls.
 
 ### Based on the following usage of the async pipe, and assuming the users class field is an Observable, how many subscriptions to the users Observable are being made?
 
@@ -113,13 +113,13 @@ export class UserDetailsComponent {
 
 - [ ] None. The async pipe does not subscribe automatically.
 - [ ] None. The template syntax is not correct.
-- [ ] Three. There is one for each async pipe.
+- [x] Three. There is one for each async pipe.
 - [ ] One. The async pipe caches Observables by type internally.
 
 ### What is the RouterModule.forRoot method used for?
 
 - [ ] Registering any providers that you intend to use in routed components.
-- [ ] Registering route definitions at the root application level.
+- [x] Registering route definitions at the root application level.
 - [ ] Indicating that Angular should cheer on your routes to be successful.
 - [ ] Declaring that you intend to use routing only at the root level.
 
@@ -127,23 +127,23 @@ export class UserDetailsComponent {
 
 ```javascript
 @Component({
-  selector: 'app-title-card',
-  template: '___',
+  selector: "app-title-card",
+  template: "___",
 })
 class TitleCardComponent {
-  title = 'User Data';
+  title = "User Data";
 }
 ```
 
 - [ ] `{{ 'title' }}`
-- [ ] `{{ title }}`
+- [x] `{{ title }}`
 - [ ] `[title]`
 - [ ] A class field cannot be displayed in a template via the template syntax.
 
 ### What directive is used to link an `<a>` tag to routing?
 
 - [ ] routeTo
-- [ ] routerLink
+- [x] routerLink
 - [ ] routePath
 - [ ] appLink
 
@@ -151,19 +151,18 @@ class TitleCardComponent {
 
 ```javascript
 @Component({
-  selector: 'app-title-card',
+  selector: "app-title-card",
   template: '<h1 title="User Data"> {{titleText}}</h1>',
 })
 export class TitleCardComponent {
-  titleText = 'User Data';
+  titleText = "User Data";
 }
 ```
 
 - [ ] `<h1 data-title="titleText">{{ titleText }}</h1>`
 - [ ] `<h1 title="titleText">{{ titleText }}</h1>`
-- [ ] `<h1 [title]="titleText">{{ titleText }}</h1>`
+- [x] `<h1 [title]="titleText">{{ titleText }}</h1>`
 - [ ] `<h1 titleText>{{ titleText }}</h1>`
-
 
 ### Pick the best description for this template syntax code:
 
@@ -172,7 +171,7 @@ export class TitleCardComponent {
 ```
 
 - [ ] The ? is shorthand for the async pipe. The job value must be an Observable.
-- [ ] It is using the safe navigation operator (?) on the job field. If the job field is undefined, the access to the bossName will be ignored and no error will occur.
+- [x] It is using the safe navigation operator (?) on the job field. If the job field is undefined, the access to the bossName will be ignored and no error will occur.
 - [ ] There is an error in the template syntax. The ? is not valid here.
 - [ ] It is diplaying the job value if it has one; otherwise it is displaying the bossName.
 
@@ -180,24 +179,24 @@ export class TitleCardComponent {
 
 ```javascript
 @Directive({
-  selector: '[appCallout]',
+  selector: "[appCallout]",
 })
 export class CalloutDirective {
-  @HostBinding('style.font-weight') fontWeight = 'normal';
+  @HostBinding("style.font-weight") fontWeight = "normal";
 
-  @HostListener('mouseenter')
+  @HostListener("mouseenter")
   onMouseEnter() {
-    this.fontWeight = 'bold';
+    this.fontWeight = "bold";
   }
 
-  @HostListener('mouseleave')
+  @HostListener("mouseleave")
   onMouseLeave() {
-    this.fontWeight = 'normal';
+    this.fontWeight = "normal";
   }
 }
 ```
 
-- [ ] They are setting the CalloutDirective.fontWeight field based on whether or not the mouse is over the DOM element. The HostListener then sets the font-weight CSS property to the fontWeight value.
+- [x] They are setting the CalloutDirective.fontWeight field based on whether or not the mouse is over the DOM element. The HostListener then sets the font-weight CSS property to the fontWeight value.
 - [ ] They are setting up the directive to check the DOM element that it is on. If it has event bindings added for mouse enter and leave it will use this code. Otherwise nothing will happen.
 - [ ] This is an incorrect use of HostListener and HostBinding. The HostListener and HostBinding decorators do not do anything on directives; they work only when used on components.
 - [ ] If the DOM element that this directive is placed on has the CSS property font-weight set on it, the mouseenter and mouseleave events will get raised.
@@ -216,7 +215,7 @@ export class TabsListComponent {
 
 - [ ] If any _TabsComponent_ elements are added to the _TabsListComponent_ template, they will get put into the <ng-content> element at runtime.
 - [ ] It creates _TabComponent_ components in the _TabsListComponent_ template when a _TabsListComponent_ is instantiated.
-- [ ] It provides access from within the component class to any _TabComponent_ components that were content projected into the <ng-content> for this component.
+- [x] It provides access from within the component class to any _TabComponent_ components that were content projected into the <ng-content> for this component.
 - [ ] It restricts the allowed elements that can be put into a _TabsListComponent_ element to allow only _TabComponent_ elements.
 
 ### In order for Angular to process components in an application, where do the components need to be registered?
@@ -224,20 +223,20 @@ export class TabsListComponent {
 - [ ] within a script tag in the index.html file
 - [ ] in an NgModule decorator metadata tag named _components_
 - [ ] No registration is needed simply include the component files in an app directory.
-- [ ] in an NgModule decorator metadata property named _declarations_
+- [x] in an NgModule decorator metadata property named _declarations_
 
 ### What is the HostBinding decorator doing in this directive?
 
 ```javascript
 @Directive({
-  selector: ' [appHighlight] ',
+  selector: " [appHighlight] ",
 })
 export class HighlightDirective {
-  @HostBinding('class.highlighted') highlight = true;
+  @HostBinding("class.highlighted") highlight = true;
 }
 ```
 
-- [ ] It is adding the CSS class named highlighted to any DOM element that has the appHighlight directive on it.
+- [x] It is adding the CSS class named highlighted to any DOM element that has the appHighlight directive on it.
 - [ ] HostBinding does not do anything on directives, only on components.
 - [ ] It is specifying if the host element gets the highlighted class added to its class attribute, then the directive class field highlight will get set to true; and if it is not added on the host it will get set to false.
 - [ ] It is creating an inline style on the host element with a CSS property named highlight set to true.
@@ -249,6 +248,6 @@ export class HighlightDirective {
 ```
 
 - [ ] title="userName"
-- [ ] title="{{ userName }}"
+- [x] title="{{ userName }}"
 - [ ] title="{{ 'userName' }}"
 - [ ] The only way to do it is by using the square brackets.
